@@ -1,4 +1,4 @@
-[
+const LOOKUP_TABLE = [
   ['N', 'U', 0x0a],	/* LF for NUL */
   ['S', 'H', 0x01],
   ['S', 'X', 0x02],
@@ -1368,5 +1368,7 @@
 
 
 exports.vimStyleDigraphLookup = function(key1, key2) {
-  console.log(`Looking up based on ${key1} and ${key2}`);
+  const match = LOOKUP_TABLE.find(tuple => tuple[0] === key1
+    && tuple[1] === key2 )
+  return !!match ? String.fromCodePoint(match[2]) : undefined;
 }
