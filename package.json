@@ -1,0 +1,24 @@
+{
+  "name": "vim-style-digraph-lookup",
+  "version": "1.0.0",
+  "description": "Use vim's digraph style UI (key1, key2) to identify non-Latin characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgharms/vim-style-digraph-lookup.git"
+  },
+  "keywords": [
+    "vim",
+    "digraph",
+    "accents"
+  ],
+  "author": "Steven G. Harms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgharms/vim-style-digraph-lookup/issues"
+  },
+  "homepage": "https://github.com/sgharms/vim-style-digraph-lookup#readme"
+}
