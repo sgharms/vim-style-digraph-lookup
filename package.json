@@ -1,6 +1,6 @@
 {
   "name": "vim-style-digraph-lookup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use vim's digraph style UI (key1, key2) to identify non-Latin characters",
   "main": "index.js",
   "scripts": {
